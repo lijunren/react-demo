@@ -1,0 +1,24 @@
+.ref_title{
+    text-align: center;
+}
+.ref_input{
+    display: block;
+    border: 1px solid #333;
+    width: 80%;
+    height: 25px;
+    line-height: 25px;
+    margin:  0 auto;
+    border-radius: 5px;
+}
+.ref_button{
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d46868;
+    background-color: #d46868;
+    color: #fff;
+    border-radius: 50px;
+    outline: none;
+}

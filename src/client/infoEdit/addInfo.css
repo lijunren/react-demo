@@ -1,0 +1,27 @@
+.addInfoContent{
+    padding: .2rem .1rem;
+}
+.addInfoContent label {
+    display: block;
+}
+.addInfoContent label span {
+    display: inline-block;
+    width: 1.2rem;
+    font-size: .2rem;
+}
+.addInfoContent label input {
+    padding: .1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+}
+.addInfoContent button{
+    display: block;
+    margin: .1rem auto;
+    background-color: #f73636;
+    border-radius: 5px;
+    text-align: center;
+    width: 3rem;
+    color: #fff;
+    outline: none;
+}

@@ -1,0 +1,10 @@
+.history
+.vscode
+*.log
+build
+node_modules
+.DS_Store
+.idea
+.vs
+ts-node*
+npm-debug.*.*
