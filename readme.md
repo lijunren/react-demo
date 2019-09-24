@@ -1,5 +1,5 @@
 npm yarn
 
-npm yarn hotnode -g
+本地启动 npm run start
 
-npm run hotstart
+build npm run build
