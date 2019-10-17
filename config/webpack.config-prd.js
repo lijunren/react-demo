@@ -62,12 +62,13 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: ["@babel/preset-env", "@babel/preset-react"],
-                        plugins: ['@babel/plugin-proposal-decorators']
+                        // plugins: ['@babel/plugin-proposal-decorators'] // 导致打包不能输出文件
                     } // env转换es6 stage-0(新版本不需要了) react转react
                 }
             }
         ],
     },
+    devtool: "eval",
     plugins: [
         new htmlWebpackPlugin({
             title: "webpack",
